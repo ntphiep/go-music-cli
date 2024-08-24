@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ntphiep/go-music-cli/counter"
+	"github.com/ntphiep/go-music-cli/counters"
 	"github.com/spf13/cobra"
 )
 
@@ -62,5 +62,5 @@ var countCmd = &cobra.Command{
 }
 
 func init() {
-
+	
 }
